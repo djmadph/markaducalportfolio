@@ -756,29 +756,7 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
-.clients-wrapper {
-  overflow: hidden; /* Hide any content that overflows the container */
-}
 
-.clients-list {
-  display: flex; /* Arrange the list items horizontally */
-  animation: scrollClients 20s linear infinite; /* Apply the animation */
-  width: fit-content; /* Make the list wide enough to hold all items */
-}
-
-.clients-item {
-  margin-right: 20px; /* Adjust spacing between items */
-}
-
-/* Define the animation */
-@keyframes scrollClients {
-  0% {
-    transform: translateX(0); /* Start from the original position */
-  }
-  100% {
-    transform: translateX(-50%); /* Move the list to the left */
-  }
-}
 
 
 
